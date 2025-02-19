@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 
 describe("my_list.html", () => {
-  it("should be present", () => {
+  it("should be present", () => {  
     const fileExists = fs.existsSync(
       path.resolve(__dirname, "..", "my_list.html")
     );
